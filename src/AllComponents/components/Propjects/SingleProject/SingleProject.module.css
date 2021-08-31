@@ -1,0 +1,33 @@
+.eachProject {
+    background-color: #716565;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProjectPicStyle {
+    width: 180px;
+    height: 180px;
+}
+.imgContainer {
+    /*background-image: url("e");*/
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewBtn {
+    width: 120px;
+    text-align: center;
+    background-color: #5f6666;
+    color: snow;
+    text-decoration: none;
+}
+.ProjectNameStyle {
+    border: 1px solid black;
+}
+.ProjectDescriptionStyle {
+    border: 1px solid black;
+    text-align: center;
+}

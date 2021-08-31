@@ -1,0 +1,7 @@
+.HeaderStyles {
+    background-color: dimgray;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

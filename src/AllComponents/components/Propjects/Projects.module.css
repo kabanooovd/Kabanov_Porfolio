@@ -1,0 +1,22 @@
+.ProjectsMainBlockStyle {
+    background-color: #868383;
+    height: 100vh;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: initial;
+}
+
+.ProjectsTitle {
+    border: 1px solid black;
+}
+
+.Projects {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
