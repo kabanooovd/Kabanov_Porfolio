@@ -1,0 +1,28 @@
+.MainFooterContainer {
+    background-color: #414545;
+    border: 1px solid black;
+
+}
+.FooterContainer {
+    min-height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.HeaderFooter {
+    border: 1px solid black;
+}
+.FooterItems {
+    border: 1px solid black;
+    display: inline-flex;
+}
+.EachItem {
+    padding: 20px;
+    margin: 0 10px 0 10px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+}

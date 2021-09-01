@@ -1,0 +1,39 @@
+.MainContactsStyles {
+    background-color: #8b8e8e;
+    min-height: 100vh;
+
+}
+.ContactsContainer {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.ContactsHeader {
+    border: 1px solid black;
+}
+.ContactsItems {
+    border: 1px solid black;
+    min-height: 200px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+.ContactsContent {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.SendBtn {
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #5a5f5f;
+}
