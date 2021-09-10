@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 .ProjectPicStyle {
     width: 180px;
@@ -20,7 +21,17 @@
 .viewBtn {
     width: 120px;
     text-align: center;
-    background-color: #5f6666;
+    background-color: #1c1b1b;
+    color: grey;
+    text-decoration: none;
+}
+.viewBtn:hover {
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1b1b;
     color: snow;
     text-decoration: none;
 }

@@ -1,27 +1,27 @@
 .MainFooterContainer {
-    background-color: #414545;
+    background-color: #1c1b1b;
     border: 1px solid black;
 
 }
 .FooterContainer {
     min-height: 200px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    color: snow;
 }
 .HeaderFooter {
-    border: 1px solid black;
+    border: 1px solid snow;
 }
 .FooterItems {
-    border: 1px solid black;
+    border: 1px solid snow;
     display: inline-flex;
 }
 .EachItem {
     padding: 20px;
     margin: 0 10px 0 10px;
-    border: 1px solid black;
+    border: 1px solid snow;
     width: 30px;
     height: 30px;
     border-radius: 40px;

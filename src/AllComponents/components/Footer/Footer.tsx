@@ -1,7 +1,7 @@
 import React from "react";
 import Styles from './Footer.module.css'
 
-const footerItems = ['pic1', 'pic2', 'pic3', 'pic4', 'pic5', 'pic6', 'pic7']
+const footerItems = ['pic1', 'pic2', 'pic3', 'pic4']
 
 export const Footer = () => {
 

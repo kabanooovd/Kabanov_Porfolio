@@ -1,5 +1,5 @@
 .MainContactsStyles {
-    background-color: #8b8e8e;
+    background-color: snow;
     min-height: 100vh;
 
 }
@@ -12,16 +12,7 @@
 .ContactsHeader {
     border: 1px solid black;
 }
-.ContactsItems {
-    border: 1px solid black;
-    min-height: 200px;
-    min-width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0 50px 0;
-}
+
 .ContactsContent {
     border: 1px solid black;
     display: flex;

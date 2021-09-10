@@ -6,10 +6,10 @@ import Styles from './Nav.module.css'
 export const Nav = () => {
     return(
         <div className={Styles.NavStyles}>
-            <a href="">General</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contacts</a>
+            <a href="" className={Styles.linkStyle}>General</a>
+            <a href="" className={Styles.linkStyle}>Skills</a>
+            <a href="" className={Styles.linkStyle}>Projects</a>
+            <a href="" className={Styles.linkStyle}>Contacts</a>
         </div>
     )
 }

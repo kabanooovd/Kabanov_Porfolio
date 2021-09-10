@@ -17,7 +17,7 @@ const currentProjects = [
         ProjectDescription: 'The "Social-netWork" consist all traditional development methods, including class components',
         ProjectPic: dimasSNW,      // typeof (dimasSMW) => string
         link: 'https://github.com/kabanooovd/Social_Network'
-    }
+    },
 ]
 
 export const Projects = () => {

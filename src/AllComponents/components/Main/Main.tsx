@@ -12,7 +12,7 @@ export const Main = () => {
                     <h1>Im DMITRIY</h1>
                     <p>Front-end developer</p>
                 </div>
-                <div className={Styles.photo}>Place for pic</div>
+                <div className={Styles.photo}/>
             </div>
 
         </div>

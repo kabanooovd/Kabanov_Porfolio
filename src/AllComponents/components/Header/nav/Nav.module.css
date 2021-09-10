@@ -1,6 +1,17 @@
 .NavStyles {
-    border: 1px solid red;
+    border: 1px solid snow;
     width: 300px;
     display: flex;
     justify-content: space-between;
+}
+
+.linkStyle {
+    color: snow;
+    text-decoration: none;
+}
+
+.linkStyle:hover {
+    opacity: 0.5;
+    color: snow;
+    text-decoration: none;
 }
