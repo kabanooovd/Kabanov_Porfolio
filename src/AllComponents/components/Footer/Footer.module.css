@@ -16,7 +16,11 @@
 }
 .FooterItems {
     border: 1px solid snow;
-    display: inline-flex;
+    /*display: inline-flex;*/
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 370px;
 }
 .EachItem {
     padding: 20px;
