@@ -1,16 +1,22 @@
 .mainBlock {
-    height: 100vh;  /* vh - view height - 100% видимости экрана */
-    background-color: snow;
+    /*max-height: 100vh;  !* vh - view height - 100% видимости экрана *!*/
+    color: snow;
+    background-color: #4d545a;
+    padding: 20px 0 20px 0;
 }
 .greetings {
-    border: 1px solid black;
+    border: 1px solid snow;
     width: 300px;
 }
 .photo {
-    border: 1px solid black;
+    border: 1px solid snow;
     width: 300px;
     height: 400px;
     background-image: url("https://im0-tub-ru.yandex.net/i?id=e741f1fd83f1543bbc8b846a1e606ece&ref=rim&n=33&w=234&h=234");
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 800px){
+
 }

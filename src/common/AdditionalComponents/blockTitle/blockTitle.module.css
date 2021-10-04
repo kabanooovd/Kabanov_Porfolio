@@ -1,0 +1,35 @@
+
+.BlockTitle {
+    border: 1px solid snow;
+    position: relative;
+    margin: 0 0 30px;
+    /*margin-bottom: 30px;*/
+    font-family: 'Abel', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+
+}
+
+
+.BlockTitle h2 {
+    margin: 0;
+}
+
+.BlockTitle::after {
+    content: '';
+    position: absolute;
+    background: #ff6600;
+    width: 60px;
+    height: 2px;
+    bottom: -22px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+
+
+
+
+
+
+

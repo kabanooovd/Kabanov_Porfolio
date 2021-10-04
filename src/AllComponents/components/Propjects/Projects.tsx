@@ -1,9 +1,10 @@
 import React from "react";
 import Styles from "./Projects.module.css"
 import ContainerStyle from "../../../common/styles/container.module.css";
-import TDL_pic from '../../../common/assets/TDL_pic.png'
-import dimasSNW from '../../../common/assets/dimasSNW.png'
+import TDL_pic from '../../../common/assets/images/TDL_pic.jpg'
+import dimasSNW from '../../../common/assets/images/dimasSNW.jpg'
 import {SingleProject} from "./SingleProject/SingleProject";
+import {BlockTitle} from "../../../common/AdditionalComponents/blockTitle/blockTitle";
 
 const currentProjects = [
     {
@@ -34,10 +35,9 @@ export const Projects = () => {
     return(
         <div className={Styles.ProjectsMainBlockStyle}>
             <div className={`${ContainerStyle.Container} ${Styles.projectsContainer}`}>
-                <div><h2 className={Styles.ProjectsTitle}>Projects</h2></div>
+                <BlockTitle uniqTitle={'Projects'}/>
                 <div className={Styles.Projects}>
                     {myProjects}
-
                 </div>
             </div>
         </div>

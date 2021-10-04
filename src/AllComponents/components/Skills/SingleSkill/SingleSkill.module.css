@@ -1,5 +1,7 @@
 .skill {
-    background-color: #aca7a7;
+    background-color:  #6c757d;
+    color: snow;
+    border: 1px solid snow;
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -13,4 +15,13 @@
     border: 1px solid;
     height: 60px;
     width: 60px;
+}
+
+.title {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+}
+
+.description {
+    font-family: 'Inconsolata', monospace;
 }

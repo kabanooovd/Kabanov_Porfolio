@@ -1,5 +1,6 @@
 .ProjectsMainBlockStyle {
-    background-color: snow;
+    background-color: #4d545a;
+    color: snow;
     min-height: 100vh;
 }
 
@@ -9,14 +10,19 @@
     flex-wrap: initial;
 }
 
-.ProjectsTitle {
-    border: 1px solid black;
-}
 
 .Projects {
-    border: 1px solid black;
+    border: 1px solid snow;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 724px) {
+    .Projects {
+        justify-content: center;
+    }
+}
+
+

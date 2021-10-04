@@ -1,5 +1,6 @@
 .MainContactsStyles {
-    background-color: snow;
+    background-color: #4d545a;
+    color: snow;
     min-height: 100vh;
 
 }
@@ -9,15 +10,12 @@
     flex-direction: column;
 
 }
-.ContactsHeader {
-    border: 1px solid black;
-}
 
 .ContactsContent {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
 
 }
 .SendBtn {
@@ -26,5 +24,17 @@
     width: 100px;
     display: flex;
     justify-content: center;
-    background-color: #5a5f5f;
+    background-color: snow;
+    color: #4d545a;
+}
+
+
+/*h2 {*/
+/*    font-family: 'Abel', sans-serif;*/
+/*}*/
+
+@media screen and (max-width: 400px) {
+    .ContactsContent {
+        width: 100%;
+    }
 }

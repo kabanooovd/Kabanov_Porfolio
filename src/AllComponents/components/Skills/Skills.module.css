@@ -1,5 +1,6 @@
 .SkillsBlockStyles {
-    background-color: #1c1b1b;
+    background-color: #6c757d;
+    color: snow;
     min-height: 100vh;
 }
 
@@ -9,11 +10,6 @@
     flex-wrap: initial;
 }
 
-.title {
-    border: 1px solid black;
-    color: snow;
-}
-
 .skills {
     color: #1c1b1b;
     border: 1px solid black;
@@ -21,5 +17,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
+
+/*624*/
+
+@media screen and (max-width: 938px) {
+    .skills {
+        justify-content: center;
+    }
 }

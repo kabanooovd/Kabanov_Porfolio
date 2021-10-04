@@ -1,32 +1,40 @@
 .MainFooterContainer {
     background-color: #1c1b1b;
-    border: 1px solid black;
 
 }
 .FooterContainer {
-    min-height: 200px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     color: snow;
 }
-.HeaderFooter {
-    border: 1px solid snow;
-}
+/*.HeaderFooter {*/
+/*    border: 1px solid snow;*/
+/*}*/
 .FooterItems {
     border: 1px solid snow;
     /*display: inline-flex;*/
     display: flex;
     justify-content: space-around;
+    /*flex-wrap: wrap;*/
     width: 100%;
     max-width: 370px;
 }
 .EachItem {
     padding: 20px;
-    margin: 0 10px 0 10px;
+    /*margin: 0 10px 0 10px;*/
     border: 1px solid snow;
     width: 30px;
     height: 30px;
     border-radius: 40px;
+}
+
+@media screen and (max-width: 320px){
+    .FooterItems {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
 }

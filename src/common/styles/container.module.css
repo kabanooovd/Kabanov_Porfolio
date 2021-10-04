@@ -8,3 +8,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+/*h2 {*/
+/*    font-family: 'Abel', sans-serif;*/
+/*}*/
+
+@media screen and (max-width: 800px) {
+    .Container {
+        justify-content: center;
+    }
+}

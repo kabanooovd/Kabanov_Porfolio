@@ -1,29 +1,101 @@
 .eachProject {
-    background-color: #716565;
-    width: 250px;
+    background-color: #4d545a;
+    border: 1px solid snow;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
+/*//    @media screen and (max-width: 388px) {*/
+/*//        width: 250px;*/
+/*//    }*/
+/*//    .imgContainer {*/
+/*//        border: 1px solid snow;*/
+/*//        width: 300px;*/
+/*//        height: 180px;*/
+/*//        display: flex;*/
+/*//        justify-content: center;*/
+/*//        align-items: center;*/
+/*//        position: relative;*/
+/*//        @media screen and (max-width: 388px) {*/
+/*//            width: 250px;*/
+/*//        }*/
+/*//        .imgContainer::before {*/
+/*//            position: absolute;*/
+/*//            content: '';*/
+/*//            background-color: black;*/
+/*//            top: 0;*/
+/*//            bottom: 0;*/
+/*//            left: 0;*/
+/*//            right: 0;*/
+/*//            opacity: 0.5;*/
+/*//        }*/
+/*//        .viewBtn {*/
+/*//            border: 1px solid snow;*/
+/*//            width: 120px;*/
+/*//            text-align: center;*/
+/*//            background-color: #ff6600;*/
+/*//            color: snow;*/
+/*//            text-decoration: none;*/
+/*//            position: relative;*/
+/*//            z-index: 1;*/
+/*//        }*/
+/*//        .viewBtn:hover {*/
+/*//            width: 140px;*/
+/*//            height: 30px;*/
+/*//            display: flex;*/
+/*//            justify-content: center;*/
+/*//            align-items: center;*/
+/*//            background-color: #ff6600;*/
+/*//            color: snow;*/
+/*//            text-decoration: none;*/
+/*//        }*/
+/*//        .ProjectNameStyle {*/
+/*//            margin:10px 0;*/
+/*//            font-family: 'Gemunu Libre', sans-serif;*/
+/*//            font-size: 26px;*/
+/*//        }*/
+/*//        .ProjectDescriptionStyle {*/
+/*//            border: 1px solid snow;*/
+/*//            text-align: center;*/
+/*//            font-family: 'Gemunu Libre', sans-serif;*/
+/*//        }*/
+/*//    }*/
+/*//    !*padding: 20px;*!*/
+/*//}*/
 .ProjectPicStyle {
     width: 180px;
     height: 180px;
 }
 .imgContainer {
+    border: 1px solid snow;
     /*background-image: url("e");*/
-    width: 180px;
+    width: 300px;
     height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.imgContainer::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
 }
 .viewBtn {
+    border: 1px solid snow;
     width: 120px;
     text-align: center;
-    background-color: #1c1b1b;
-    color: grey;
+    background-color: #ff6600;
+    color: snow;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
 }
 .viewBtn:hover {
     width: 140px;
@@ -31,14 +103,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1c1b1b;
+    background-color: #ff6600;
     color: snow;
     text-decoration: none;
 }
+
 .ProjectNameStyle {
-    border: 1px solid black;
+    margin:10px 0;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 26px;
 }
 .ProjectDescriptionStyle {
-    border: 1px solid black;
+    border: 1px solid snow;
     text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+@media screen and (max-width: 388px) {
+    .eachProject {
+        width: 250px;
+    }
+    .imgContainer {
+        width: 250px;
+    }
 }
