@@ -1,8 +1,10 @@
 .NavStyles {
-    border: 1px solid snow;
-    width: 300px;
+    /*border: 1px solid snow;*/
+    width: 400px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 28px;
 }
 
 .linkStyle {
@@ -11,7 +13,13 @@
 }
 
 .linkStyle:hover {
-    opacity: 0.5;
-    color: snow;
+    color: #ff6600;
     text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .NavStyles {
+        font-size: 18px;
+        width: 200px;
+    }
 }
