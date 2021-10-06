@@ -22,6 +22,7 @@ export const SelfPrintingString: React.ComponentType<SelfPrintingStringT> = prop
             }, seconds * 1000)
             if (str.length === word.length) {
                 clearTimeout(x)
+                setTimeout( () => setStr(''), 2000 )
             }
     }, [str, word ,seconds])
 
