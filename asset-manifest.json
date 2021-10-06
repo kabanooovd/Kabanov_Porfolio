@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Kabanov_Porfolio/static/css/main.b97cbca4.chunk.css",
-    "main.js": "/Kabanov_Porfolio/static/js/main.59cfaf0b.chunk.js",
-    "main.js.map": "/Kabanov_Porfolio/static/js/main.59cfaf0b.chunk.js.map",
-    "runtime-main.js": "/Kabanov_Porfolio/static/js/runtime-main.2dd431a1.js",
-    "runtime-main.js.map": "/Kabanov_Porfolio/static/js/runtime-main.2dd431a1.js.map",
-    "static/js/2.570129b8.chunk.js": "/Kabanov_Porfolio/static/js/2.570129b8.chunk.js",
-    "static/js/2.570129b8.chunk.js.map": "/Kabanov_Porfolio/static/js/2.570129b8.chunk.js.map",
-    "static/js/3.e8098d22.chunk.js": "/Kabanov_Porfolio/static/js/3.e8098d22.chunk.js",
-    "static/js/3.e8098d22.chunk.js.map": "/Kabanov_Porfolio/static/js/3.e8098d22.chunk.js.map",
+    "main.css": "/Kabanov_Porfolio/static/css/main.a04df711.chunk.css",
+    "main.js": "/Kabanov_Porfolio/static/js/main.87e65138.chunk.js",
+    "main.js.map": "/Kabanov_Porfolio/static/js/main.87e65138.chunk.js.map",
+    "runtime-main.js": "/Kabanov_Porfolio/static/js/runtime-main.7ae41ef2.js",
+    "runtime-main.js.map": "/Kabanov_Porfolio/static/js/runtime-main.7ae41ef2.js.map",
+    "static/js/2.8b24c3fc.chunk.js": "/Kabanov_Porfolio/static/js/2.8b24c3fc.chunk.js",
+    "static/js/2.8b24c3fc.chunk.js.map": "/Kabanov_Porfolio/static/js/2.8b24c3fc.chunk.js.map",
+    "static/js/3.16a95615.chunk.js": "/Kabanov_Porfolio/static/js/3.16a95615.chunk.js",
+    "static/js/3.16a95615.chunk.js.map": "/Kabanov_Porfolio/static/js/3.16a95615.chunk.js.map",
     "index.html": "/Kabanov_Porfolio/index.html",
-    "static/css/main.b97cbca4.chunk.css.map": "/Kabanov_Porfolio/static/css/main.b97cbca4.chunk.css.map",
-    "static/js/2.570129b8.chunk.js.LICENSE.txt": "/Kabanov_Porfolio/static/js/2.570129b8.chunk.js.LICENSE.txt",
-    "static/media/TDL_pic.9377d8f8.png": "/Kabanov_Porfolio/static/media/TDL_pic.9377d8f8.png",
-    "static/media/dimasSNW.3a45493c.png": "/Kabanov_Porfolio/static/media/dimasSNW.3a45493c.png"
+    "static/css/main.a04df711.chunk.css.map": "/Kabanov_Porfolio/static/css/main.a04df711.chunk.css.map",
+    "static/js/2.8b24c3fc.chunk.js.LICENSE.txt": "/Kabanov_Porfolio/static/js/2.8b24c3fc.chunk.js.LICENSE.txt",
+    "static/media/TDL_pic.f28bd494.jpg": "/Kabanov_Porfolio/static/media/TDL_pic.f28bd494.jpg",
+    "static/media/dimasSNW.e79c810f.jpg": "/Kabanov_Porfolio/static/media/dimasSNW.e79c810f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2dd431a1.js",
-    "static/js/2.570129b8.chunk.js",
-    "static/css/main.b97cbca4.chunk.css",
-    "static/js/main.59cfaf0b.chunk.js"
+    "static/js/runtime-main.7ae41ef2.js",
+    "static/js/2.8b24c3fc.chunk.js",
+    "static/css/main.a04df711.chunk.css",
+    "static/js/main.87e65138.chunk.js"
   ]
 }
