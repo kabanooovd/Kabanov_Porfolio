@@ -1,9 +1,10 @@
 .MainContactsStyles {
-    background-color: #4d545a;
+    background: url("https://wallpapercave.com/wp/NjlAzeN.jpg");
+    position: relative;
     color: snow;
     min-height: 100vh;
-
 }
+
 .ContactsContainer {
     border: 1px solid black;
     display: flex;
@@ -18,15 +19,13 @@
     width: 50%;
 
 }
-.SendBtn {
-    margin-top: 30px;
-    border: 1px solid black;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    background-color: snow;
-    color: #4d545a;
+
+.itemsStyles {
+    outline: none;
+    background-color: #27282d;
+    color: snow;
 }
+
 
 
 /*h2 {*/

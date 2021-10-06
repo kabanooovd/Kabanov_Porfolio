@@ -33,7 +33,8 @@
 
 @media screen and (max-width: 1029px){
     .greetings {
-        border-radius: 50px
+        border-radius: 0;
+        border: 0;
     }
 }
 

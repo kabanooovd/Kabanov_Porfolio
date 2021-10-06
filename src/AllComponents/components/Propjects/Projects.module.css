@@ -1,5 +1,6 @@
 .ProjectsMainBlockStyle {
-    background-color: #4d545a;
+    /*background-color: #4d545a;*/
+    background-image: url("https://phonoteka.org/uploads/posts/2021-06/1623927381_4-phonoteka_org-p-pattern-mikroskhema-krasivo-4.jpg");
     color: snow;
     min-height: 100vh;
 }
@@ -12,7 +13,7 @@
 
 
 .Projects {
-    border: 1px solid snow;
+    /*border: 1px solid snow;*/
     width: 100%;
     display: flex;
     justify-content: space-between;

@@ -55,7 +55,7 @@ export const Skills = () => {
     return(
         <div className={Styles.SkillsBlockStyles}>
             <div className={`${ContainerStyle.Container} ${Styles.skillsContainer}`}>
-                    <BlockTitle uniqTitle={'skills'}/>
+                    <BlockTitle uniqTitle={'kills'} firstSymbol={'S'}/>
                 <div className={Styles.skills}>
                     {skills}
                 </div>

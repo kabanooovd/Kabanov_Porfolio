@@ -35,7 +35,7 @@ export const Projects = () => {
     return(
         <div className={Styles.ProjectsMainBlockStyle}>
             <div className={`${ContainerStyle.Container} ${Styles.projectsContainer}`}>
-                <BlockTitle uniqTitle={'Projects'}/>
+                <BlockTitle uniqTitle={'rojects'} firstSymbol={'P'}/>
                 <div className={Styles.Projects}>
                     {myProjects}
                 </div>

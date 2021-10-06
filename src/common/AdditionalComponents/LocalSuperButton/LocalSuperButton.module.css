@@ -1,0 +1,27 @@
+.commonButtonStyle {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #ff6600;
+    border: 3px solid #b6b2b2;
+    color: #d2cfcf;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.commonButtonStyle:hover {
+    background-color: #763509;
+    border: 4px solid snow;
+    color: snow;
+}
+
+
+
+
+
